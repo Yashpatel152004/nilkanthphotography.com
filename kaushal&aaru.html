@@ -43,12 +43,27 @@
 				NILKANTH PHOTOGRAPHY
 			</div>
 			<section class="ftco-section ftco-no-pt ftco-no-pb  " style="background-color: var(--light);">
+				<div class="carousal-box" style="margin-top: 50px;">
+					
+						<div class="owl-carousel owl-theme">
+							<div class="item"><div class="img-box"><img src="images/Engagement/Kaushal-Aaru/KR-MULTI.jpg" alt=""></div></div>
+							<div class="item"><div class="img-box"><img src="images/Engagement/Kaushal-Aaru/KR-6.jpg" alt=""></div></div>
+							<div class="item"><div class="img-box"><img src="images/Engagement/Kaushal-Aaru/KR-5.jpg" alt=""></div></div>
+							<div class="item"><div class="img-box"><img src="images/Engagement/Kaushal-Aaru/KR-4.jpg" alt=""></div></div>
+							<div class="item"><div class="img-box"><img src="images/Engagement/Kaushal-Aaru/KR-3.jpg" alt=""></div></div>
+							<div class="item"><div class="img-box"><img src="images/Engagement/Kaushal-Aaru/KR-2.jpg" alt=""></div></div>
+							<div class="item"><div class="img-box"><img src="images/Engagement/Kaushal-Aaru/KR-1.jpg" alt=""></div></div>
+							
+						</div>
+					
+				</div>
 				<div class="full-Img-box">
 					<div class="img-lit-box">
 						<div> <a href="images/Engagement/Kaushal-Aaru/" class="down-btn" download=""> <i class="fa-download fa"></i></a></div>
 						<div> <a href="images/Engagement/Kaushal-Aaru/KR-1.jpg" class="image image-popup "> <img src="images/Engagement/Kaushal-Aaru/KR-1.jpg" style="aspect-ratio: 9/16;" alt=""></a></div>
 					 </div>
 				</div>
+				
 				<div class="Img-box"><a class="down-btn image-popup" download="" aria-label="download"
 						href="images/Engagement/Kaushal-Aaru/KR-MULTI.jpg"><i class="fa fa-download"></i></a> <img
 						src="images/Engagement/Kaushal-Aaru/KR-MULTI.jpg" alt=""> </div>
@@ -136,5 +151,22 @@
 		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
 	<script src="js/google-map.js"></script>
 	<script src="js/main.js"></script>
+	<script>
+		var owl = $('.owl-carousel');
+owl.owlCarousel({
+    items:1,
+    loop:true,
+    margin:10,
+    autoplay:true,
+    autoplayTimeout:2000,
+    autoplayHoverPause:true
+});
+$('.play').on('click',function(){
+    owl.trigger('play.owl.autoplay',[1000])
+})
+$('.stop').on('click',function(){
+    owl.trigger('stop.owl.autoplay')
+})
+	</script>
 </body>
 </html>
