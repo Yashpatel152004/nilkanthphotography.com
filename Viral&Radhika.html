@@ -158,21 +158,38 @@
 	<script src="js/google-map.js"></script>
 	<script src="js/main.js"></script>
 	<script>
-		var owl = $('.owl-carousel');
+var owl = $('.owl-carousel');
 owl.owlCarousel({
     items:1,
     loop:true,
     margin:10,
     autoplay:true,
-    autoplayTimeout:2000,
-    autoplayHoverPause:true
+    autoplayTimeout:1000,
+    autoplayHoverPause:true,
+	loop:true,
+    margin:10,
+    responsiveClass:true,
+    animateIn: 'bounceInRight',
+	animateOut: 'bounceOutLeft',
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+			
+        },
+        600:{
+            items:2,
+            nav:false
+        },
+        1000:{
+            items:3,
+            nav:true,
+            loop:true
+        }
+    }
 });
-$('.play').on('click',function(){
-    owl.trigger('play.owl.autoplay',[1000])
-})
-$('.stop').on('click',function(){
-    owl.trigger('stop.owl.autoplay')
-})
+
+
 	</script>
 </body>
 </html>
