@@ -14,7 +14,7 @@
   --cyan: #17a2b8;
   --white: #fff;
   --gray: #6c757d;
-  --gray-dark: #343a40;
+  --gray-dark: #343a40;e
   --primary: #007bff;
   --secondary: #6c757d;
   --success: #28a745;
@@ -10755,12 +10755,14 @@ h5,
   cursor: pointer;
   opacity: 1;
   visibility: hidden;
-  padding: 7px 10px;
+  padding: 8px 20px;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
   -ms-transition: all 0.5s ease;
   transition: all 0.5s ease;
+      background-color: #ffffffd9;
+    backdrop-filter: blur(100px);
 }
 @media (max-width: 991.98px) {
   .colorlib-nav-toggle {
