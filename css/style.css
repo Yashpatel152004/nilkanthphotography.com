@@ -240,9 +240,7 @@ body {
 .CTBG{
   
   background-image:url('images/White2.jpg');
-  background-position:center;
-  background-size:cover;
-  
+  background-color:transparent;  
 } 
 .Img-box img {
   width: 100%;
