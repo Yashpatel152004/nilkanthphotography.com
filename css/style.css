@@ -237,10 +237,10 @@ body {
     filter: saturate(0);
   }
 }
-.CTBG{
+.NB{
   
-  background-image:url('images/White2.jpg');
-  background-color:transparent;  
+  background-image:url('images/C1L.jpg');
+  background-size:cover;
 } 
 .Img-box img {
   width: 100%;
