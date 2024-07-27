@@ -237,7 +237,7 @@ body {
     filter: saturate(0);
   }
 }
-.NB{
+#NB{
   
   background-image:url('images/C1L.jpg');
   background-size:cover;
