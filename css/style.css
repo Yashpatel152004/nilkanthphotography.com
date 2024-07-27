@@ -198,11 +198,11 @@ body {
   display:flex;
   justify-content:center;
   alin-items:center;
-  padding:4px;
+  padding:8px;
 }
 .download-btn {
   position: relative;
-  font-size: 1.3em;
+  font-size: medium;
   font-weight: 400;
   background: #ffffff;
   color: #000000;
@@ -224,7 +224,7 @@ body {
 }
 .countdown {
   font-size: 20px;
-  letter-spacing: 2px;
+  letter-spacing: 0px;
   font-family: "Xillian", "Brolimo";
   background-color: rgba(255, 255, 255, 0.904);
   padding: 6px;
@@ -237,12 +237,12 @@ body {
   border-radius: 10px;
 }
 .countdown span {
-  font-size: 1.3em;
+  font-size: medium;
   font-weight: 800;
   color: rgb(0, 0, 0);
 }
 .pleaseWait-text {
-  font-size: 1.3em;
+  font-size: medium;
   font-weight: 700;
   display: none;
   color: rgb(147, 199, 147);
