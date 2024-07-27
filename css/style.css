@@ -194,6 +194,12 @@ body {
 /* my css */
 
 /* download button */
+.btn-container{
+  display:flex;
+  justify-content:center;
+  alin-items:center;
+  padding:4px;
+}
 .download-btn {
   position: relative;
   font-size: 1.3em;
