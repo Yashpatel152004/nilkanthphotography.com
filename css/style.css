@@ -240,6 +240,8 @@ body {
   font-size: medium;
   font-weight: 800;
   color: rgb(0, 0, 0);
+  margin-left:10px;
+  margin-right:10px;
 }
 .pleaseWait-text {
   font-size: medium;
