@@ -11045,6 +11045,8 @@ h5,
   color: #fff;
   padding-bottom: 5px;
   font-family: "Casta";
+      font-weight: 800;
+    font-kerning: none;
 }
 .portfolio-wrap-2 .text .desc {
   position: relative;
