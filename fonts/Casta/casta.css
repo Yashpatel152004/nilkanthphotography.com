@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'casta';
+    src: url('casta-thin-webfont.woff2') format('woff2'),
+         url('casta-thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
