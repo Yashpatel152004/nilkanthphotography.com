@@ -10834,7 +10834,7 @@ h5,
   -webkit-transition: all 0.5s ease;
   -ms-transition: all 0.5s ease;
   transition: all 0.5s ease;
-    background-color: beige;
+    background-color: #C5C6C7;
     backdrop-filter: blur(4px);
   border-radius: 40px 100px;
 }
