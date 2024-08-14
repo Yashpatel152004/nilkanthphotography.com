@@ -11023,6 +11023,7 @@ h5,
 }
 .portfolio-wrap-2 .text {
   position: relative;
+  background-image: linear-gradient(81deg, #ffffffa6, #fbfbfb47, transparent);
 }
 .portfolio-wrap-2 .text .subheading {
   display: block;
