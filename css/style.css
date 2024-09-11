@@ -941,9 +941,7 @@ pre code {
   .container-sm {
     max-width: 540px;
   }
-  .pricing .img{
-    height: 100%;!important
-  }
+  
 }
 @media (min-width: 768px) {
   .container,
