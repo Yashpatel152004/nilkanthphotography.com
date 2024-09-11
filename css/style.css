@@ -193,7 +193,9 @@ body {
   filter: saturate(0) brightness(2);
 }
 /* my css */
-
+.pricing .text span.bg-text{
+  background-image: linear-gradient(81deg, #ffffffa6, #fbfbfb47, transparent);
+}
 /* download button */
 .btn-container{
   display:flex;
