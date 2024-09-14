@@ -11164,6 +11164,7 @@ color: rgb(255 255 255 / 91%);
     position: relative;
     left: -25px;
   padding: 1px;
+  width:max-content;
 }
 .pricing .text ul {
   margin: 0;
