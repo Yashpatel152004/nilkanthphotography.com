@@ -10851,10 +10851,14 @@ h5,
 .ftco-about .img {
   width: 100%;
   display: block;
+  margin-top: 60px;
+  border-radius: 20px;
+      box-shadow: 0px 0px 100px #000000 inset;
+    border: 3px solid #ffffff;
 }
 .ftco-about .text h2 {
   font-size: 35px;
-  font-family: "Kaushan script", cursive;
+  font-family: "Cigra", cursive;
   line-height: 1.2;
   color: #000;
 }
