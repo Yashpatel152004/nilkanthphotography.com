@@ -317,8 +317,8 @@ border-radius:20px  ;
   
 }
 .B-right{
-border-radius:200px 20px ;
-box-shadow: 0px 0px 5px #000000b5 inset;
+border-radius:20px  ;
+     box-shadow: 0px 0px 90px #000000 inset;
 }
 
 .Img-box img {
@@ -872,8 +872,8 @@ pre code {
 }
 .container {
   width: 100%;
-  padding-right: 1px;
-  padding-left: 1px;
+  padding-right: 2px;
+  padding-left: 2px;
   margin-right: auto;
   margin-left: auto;
   background-color: white;
