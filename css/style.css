@@ -289,7 +289,7 @@ body {
 
 .pinwheel {
   --uib-size: 60px;
-  --uib-speed: 1.5s;
+  --uib-speed: 0.8s;
   --uib-color: #312f2b;
   --uib-line-weight: 4px;
   position: relative;
