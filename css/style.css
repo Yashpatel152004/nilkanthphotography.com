@@ -11015,9 +11015,10 @@ h5,
 }
 .ftco-about .text h2 {
   font-size: 35px;
-  font-family: "Cigra", cursive;
+  font-family: "Alata" , "Cigra", cursive;
   line-height: 1.2;
   color: #000;
+  text-align: left;
 }
 .ftco-about .text h2 span {
   font-weight: 900;
