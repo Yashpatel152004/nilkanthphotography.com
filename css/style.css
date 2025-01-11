@@ -11872,3 +11872,35 @@ h5 {
     stroke-dashoffset: -136px;
   }
 }
+/* NEW GALLERY */
+.cgallery{
+        /* margin-top: 100px; */
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+        padding: 10px 10px;
+        background-color: white;
+    }
+.img-box  .progyear{
+       
+        position: relative;
+    z-index: 1;
+    top: 60px;
+    padding: 15px 15px;
+    width: fit-content;
+    height: fit-content;
+    letter-spacing: 5px;
+    font-family: brolimo;
+    color: black;
+    font-size: medium;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 0px 100px rgb(255, 255, 255) ;
+    background: white;
+  
+        
+
+    }
