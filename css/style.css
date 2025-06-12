@@ -10585,11 +10585,11 @@ a.text-dark:focus {
 }
 body {
   font-family: "Poppins", Arial, sans-serif;
-  background: #111111;
+  background: #FFFFFF;
   font-size: 15px;
   line-height: 1.8;
   font-weight: 400;
-  color: #666666;
+  color: #333333;
 }
 body.offcanvas {
   overflow-x: hidden;
