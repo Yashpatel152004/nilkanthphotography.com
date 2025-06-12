@@ -10589,7 +10589,7 @@ body {
   background: #FFFFFF;
   font-size: 15px;
   line-height: 1.8;
-  font-weight: Bold;
+  font-weight: normal;
   color: #333333;
 }
 body.offcanvas {
@@ -10640,7 +10640,7 @@ h5,
 .h5 {
   line-height: 1.5;
   color: #2C3227;
-  font-weight: normal;
+  font-weight: 666;
   font-family: "Poppins", Arial, sans-serif;
 }
 #colorlib-page {
